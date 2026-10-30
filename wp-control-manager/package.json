@@ -1,0 +1,27 @@
+{
+  "name": "wp-control-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React admin dashboard for the WP Control Manager WordPress plugin.",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js src",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "files": [
+    "wp-control-manager.php",
+    "uninstall.php",
+    "includes",
+    "build"
+  ],
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^7.0.0",
+    "@wordpress/element": "^6.0.0",
+    "@wordpress/url": "^4.0.0"
+  }
+}

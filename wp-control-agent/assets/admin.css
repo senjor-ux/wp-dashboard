@@ -1,0 +1,141 @@
+.wpca .wpca-tabs {
+	display: flex;
+	gap: 4px;
+	margin: 16px 0;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.wpca .wpca-tabs a {
+	padding: 8px 14px;
+	text-decoration: none;
+	color: #50575e;
+	border-bottom: 2px solid transparent;
+	margin-bottom: -1px;
+	font-weight: 500;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.wpca .wpca-tabs a.is-active {
+	color: #1d2327;
+	border-bottom-color: #2271b1;
+}
+
+.wpca .wpca-tabs a:focus {
+	box-shadow: none;
+}
+
+.wpca-count {
+	background: #d63638;
+	color: #fff;
+	border-radius: 9px;
+	font-size: 11px;
+	line-height: 17px;
+	min-width: 17px;
+	padding: 0 5px;
+	text-align: center;
+}
+
+.wpca-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 16px 20px;
+	margin-bottom: 16px;
+	max-width: 880px;
+}
+
+.wpca-card h2 {
+	margin-top: 0;
+	font-size: 15px;
+}
+
+.wpca-connected {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.wpca-connected > div {
+	flex: 1;
+}
+
+.wpca-connected p {
+	margin: 2px 0 0;
+	color: #50575e;
+}
+
+.wpca-connected > .dashicons {
+	font-size: 30px;
+	width: 30px;
+	height: 30px;
+	color: #00a32a;
+}
+
+.wpca-connected.is-error > .dashicons {
+	color: #d63638;
+}
+
+.wpca-connected.is-pending > .dashicons {
+	color: #2271b1;
+}
+
+.wpca-error-text {
+	color: #d63638;
+}
+
+.wpca-info {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.wpca-info th,
+.wpca-info td {
+	text-align: left;
+	padding: 9px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.wpca-info th {
+	width: 200px;
+	font-weight: 500;
+	color: #50575e;
+}
+
+.wpca-info tr:last-child th,
+.wpca-info tr:last-child td {
+	border-bottom: 0;
+}
+
+.wpca-warn {
+	color: #d63638;
+	font-weight: 600;
+}
+
+.wpca-ok {
+	color: #00a32a;
+}
+
+.wpca-pill {
+	display: inline-block;
+	padding: 1px 9px;
+	border-radius: 10px;
+	font-size: 12px;
+	background: #f0f0f1;
+}
+
+.wpca-pill.is-success { background: #edfaef; color: #008a20; }
+.wpca-pill.is-failed,
+.wpca-pill.is-critical { background: #fcf0f1; color: #b32d2e; }
+.wpca-pill.is-moderate { background: #fcf9e8; color: #996800; }
+.wpca-pill.is-low { background: #f0f6fc; color: #2271b1; }
+
+.wpca-footnote {
+	color: #50575e;
+	max-width: 880px;
+}
+
+.wpca-footnote .dashicons {
+	color: #2271b1;
+}
